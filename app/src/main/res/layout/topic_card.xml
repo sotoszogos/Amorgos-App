@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#143E70">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/card_margin"
+        android:elevation="3dp"
+        card_view:cardBackgroundColor="#143E70"
+        card_view:cardCornerRadius="@dimen/card_album_radius">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D9E3FF">
+
+            <ImageView
+                android:id="@+id/thumbnailResourceID"
+                android:layout_width="368dp"
+                android:layout_height="123dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="13dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="false"
+                android:contentDescription="@string/topics_main_image_description"
+                android:focusableInTouchMode="false"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/thumbnailResourceID"
+                android:layout_marginTop="0dp"
+                android:fontFamily="@string/font_family_primary"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingTop="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingBottom="10dp"
+                android:textColor="@color/colorPrimaryDarkTour"
+                android:textSize="@dimen/album_title" />
+
+            <TextView
+                android:id="@+id/numPOIs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@string/font_family_primary"
+                android:paddingLeft="@dimen/album_title_padding"
+                android:paddingRight="@dimen/album_title_padding"
+                android:paddingBottom="@dimen/songs_count_padding_bottom"
+                android:textSize="@dimen/songs_count" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="146dp"
+                android:layout_above="@+id/thumbnailResourceID"
+                android:layout_alignBaseline="@id/thumbnailResourceID"
+                android:layout_alignEnd="@+id/thumbnailResourceID"
+                android:layout_alignBottom="@id/thumbnailResourceID"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="false"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="1dp">
+
+                <ImageView
+                    android:id="@+id/viewed_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:clickable="false"
+                    android:contentDescription="@string/points_of_interest_viewed"
+                    android:focusableInTouchMode="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_eye_blue_24dp" />
+
+                <TextView
+                    android:id="@+id/POIsViewed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/title"
+                    android:layout_alignParentRight="true"
+                    android:fontFamily="@string/font_family_primary"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="5dp"
+                    android:text="2/5"
+                    android:textSize="@dimen/songs_count" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
+

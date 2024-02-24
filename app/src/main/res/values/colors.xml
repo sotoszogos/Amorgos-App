@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorMissionLocked">#EBCED6D4</color>
+    <color name="colorPrimary">#686A5C</color> <!--was: #008577-->
+    <color name="colorNeutral">#818181</color>
+    <color name="colorPrimaryDark">#424242</color> <!--#00574B-->
+    <color name="mt_tinos">#686A5C</color>
+    <color name="colorAccent">#66C5FF</color> <!--#D81B60-->
+    <color name="white">#FFFFFF</color>
+    <color name="background">#F1EEE8</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="colorApostoles">#6CBF8D</color>
+    <color name="colorChartis">#E5575C</color>
+    <color name="color_progress">#FF3737</color>
+    <color name="colorErgaliothiki">#28897A</color>
+    <color name="colorXPs">#FFE664</color>
+
+    <color name="text">#ffffffff</color>
+    <color name="background_dark">#ff363636</color>
+    <color name="background_content">#ff454344</color>
+
+    <color name="custom_progress_background">#ff3c3a3b</color>
+
+    <color name="custom_progress_green_header">#ff99cc00</color>
+    <color name="custom_progress_green_progress">#ff669900</color>
+    <color name="custom_progress_green_progress_half">#7f669900</color>
+
+    <color name="custom_progress_orange_header">#ffffbb33</color>
+    <color name="custom_progress_orange_progress">#ffff8800</color>
+    <color name="custom_progress_orange_progress_half">#7fff8800</color>
+
+    <color name="custom_progress_blue_header">#ff33b5e5</color>
+    <color name="custom_progress_blue_progress">#ff0099cc</color>
+    <color name="custom_progress_blue_progress_half">#7f0099cc</color>
+
+    <color name="custom_progress_purple_header">#ffaa66cc</color>
+    <color name="custom_progress_purple_progress">#ff9933cc</color>
+
+    <color name="custom_progress_red_header">#ffcc0000</color>
+    <color name="custom_progress_red_progress">#ffff4444</color>
+    <color name="custom_progress_red_progress_half">#7fff4444</color>
+
+    <!-- Colors from TinosPrototype -->
+    <!--colors for button style-->
+
+    <!--colors for tab and screen text-->
+    <color name="tab_indicator_color">#F1F1F1</color>
+    <color name="intro_title_color">#000000</color>
+
+    <color name="viewBg">#F1F1F1</color>
+
+    <color name="colorPrimaryLight">#2B815D</color>
+    <color name="colorPrimaryTour">#686A5C</color>
+    <color name="colorPrimaryDarkTour">#424242</color>
+    <color name="colorAccentTour">#66C5FF</color>
+
+    <color name="disabled_button">#7FDBDBDB</color>
+
+    <!-- colors for reward message cards -->
+    <color name="answer_correct">#22BC69</color>
+    <color name="answer_wrong">#F11111</color>
+
+    ///////////////////////
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+</resources>

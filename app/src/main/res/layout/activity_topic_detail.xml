@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ItemDetail">
+
+        <ImageView
+            android:id="@+id/topic_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/topic_detail_image_height"
+            android:scaleType="centerCrop"/>
+
+        <Button
+            android:id="@+id/button_tts"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:autoText="false"
+            android:background="#0D1647"
+            android:backgroundTint="#3F51B5"
+            android:elegantTextHeight="false"
+            android:freezesText="false"
+            android:text="Tap for Text To Speech"
+            android:textAlignment="viewEnd"
+            android:textAllCaps="true"
+            android:textColor="#234C77"
+            android:textColorHighlight="#3F51B5"
+            android:textStyle="italic"
+            app:strokeColor="#612828" />
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/item_detail_box_height">
+
+            <TextView
+                android:id="@+id/topic_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/item_detail_box_height"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="#143E70"
+                android:fontFamily="@string/font_family_primary"
+                android:padding="16dp"
+                android:textColor="#CBD6E3"
+                android:textSize="@dimen/item_detail_text_title" />
+
+            <TextView
+                android:id="@+id/numPOIs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@string/font_family_primary"
+                android:textColor="#A1B3C9"
+                android:textSize="@dimen/item_detail_text_location" />
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/berkshire_swash"
+                android:paddingLeft="16dp"
+                android:paddingTop="12dp"
+                android:paddingRight="16dp"
+                android:text="@string/item_overview_txt"
+                android:textColor="#143E70"
+                android:textSize="@dimen/item_detail_sub_header_text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/topic_overview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@string/font_family_primary"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:textColor="#191919"
+                android:textSize="@dimen/item_detail_body_text"
+                android:textStyle="normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="@string/item_highlight_txt"
+                android:textColor="#143E70"
+                android:textSize="@dimen/item_detail_sub_header_text"
+                android:textStyle="bold" />
+
+            <org.osmdroid.views.MapView
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="380dp"
+                android:layout_marginBottom="12dp"
+            />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginBottom="12dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

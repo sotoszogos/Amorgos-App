@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">Amorgos</string>
+
+    <string name="topics_activity_title">Amorgos</string>
+    <string name="topics_activity_subtitle">Lost in the magical big blue</string>
+
+    <string name="font_family_primary" translatable="false">sans-serif-condensed</string>
+
+    <string name="topics_main_image_description">A photo of two large cubic volumes of green Tinian Marble leaning on each other at a quarry</string>
+
+    <string name="points_of_interest_viewed">Points of interest viewed</string>
+
+    <string name="item_overview_txt">Overview</string>
+
+    <string name="item_highlight_txt">Highlights</string>
+
+    <string name="intent_extra_topic_name" translatable="false">TOPIC_NAME</string>
+
+    <string name="topic_name_0">Hiking in Amorgos</string>
+    <string name="topic_name_1">Beaches of Chora</string>
+    <string name="topic_name_2">Beaches of Katapola</string>
+    <string name="topic_name_3">Beaches of Aegiali</string>
+    <string name="topic_name_4">What to see in Chora</string>
+    <string name="topic_name_5">What to see in Katapola</string>
+    <string name="topic_name_6">What to see in Lagada</string>
+    <string name="topic_name_7">Beaches of Kato Meria</string>
+
+    <string name="topic_description_0">"This hiking trail used to be an ancient path, as the name itself says (old walk in Greek), for trading purposes. Most of its length coincides with the ancient road which connected Minoa with Aegiali. We also pay a visit to the iconic Monastery of Panagia Hozoviotissa - the second oldest monastery in Greece. This path helps you discover the wild beauty of Amorgian nature while you get informed about the island's cultural and historical heritage at the same time. It's the most popular long-distance route in Amorgos to hike and passes through the crest of a mountain at an altitude of around 400 meters." </string>
+    <string name="topic_description_1">The rocky and pebbled beach is just down from the Monastery of Hozoviotissa outside Chora. You can go there by car or walk about 30-40 minutes down from the monastery. Agia Anna has deep blue and crystal clear waters and is famous for the scenes in the movie “The Big Blue”.</string>
+    <string name="topic_description_2">The sandy beach is situated in the bay of Katapola from where you can reach it with the transfer boat or you can walk here in about 30 minutes.  There is a beach bar with tables and benches to sit down in the shade and there are sunbeds and umbrellas for rent.
+    </string>
+    <string name="topic_description_3">A long beautiful sandy beach in the middle of Aegiali bay. There is shade under the trees and shallow water suited for small children.
+        Along the beach walk there are a play ground, taverns, bars and cafes and a few minutes walk to the village center where you will find supermarkets and other facilities.</string>
+    <string name="topic_description_4">Chora the capital of Amorgos is a medieval mountain village 400 meters above the sea surrounded by windmills. Chora is dominated by a 13th century Venetian castle, the historic rock has had built into it for more than fifteen centuries the church of Kera Leousa (Lady of mercy).</string>
+    <string name="topic_description_5">Katapola is the main port of Amorgos, this beautiful region is divided into three settlements called Katapola, Rachidi, and Xilokeratidi. Along the waterfront, it’s lined with cafes, taverns, and moorings for fishing boats and visiting sailing boats. In the middle of the bay, you have a small sandy beach, you can also walk or take the bath boat to some of the other nice beaches in the area.</string>
+    <string name="topic_description_6">Langada is located in the north part of Amorgos on the edge of the canyon of Araklos and surrounded by the highest mountains of the island, Krikellos is the highest with its 821 m. Langada is a genuine Greek village with narrow alleys, traditional whitewashed houses, and small churches. The traditional customs exist in everyday life and you will get the opportunity to take part in Greek daily life. There are also many beautiful walking paths that’s easy to access from the village.</string>
+    <string name="topic_description_7">Kalotaritissa beach is a fairly long beach located at the southern tip of the island and can be reached by car. It’s a charming little bay with sandy beach and a numerous of fishing boats are anchored here. There is one small beach cafe and sunbeds and umbrellas for rent.</string>
+
+    <string name="topic_image_0_content_description">Photo of a large rock in the quarry of Ai Lefterios</string>
+    <string name="topic_image_1_content_description">Photo of the main square of Pyrgos with the marble fountain and the big plane tree.</string>
+    <string name="topic_image_2_content_description">Photograph of ecclesiastical marble works on display at the Museum of Marblecrafts.</string>
+    <string name="topic_image_3_content_description">Photo of lintel in a house in Pyrgos.</string>
+    <string name="topic_image_4_content_description">Photograph of students and teachers at the Pyrgos Vocational School of Marblecrafts.</string>
+    <string name="topic_image_5_content_description">A photo of an alley in Pyrgos, near a marble workshop.</string>
+    <string name="topic_image_6_content_description">Photo of marble monuments in Pyrgos cemetery.</string>
+    <string name="topic_image_7_content_description">Photo of the interior of the museum of marble crafts.</string>
+
+    <string-array name="topic_0_highlights">
+        <item>Chora - Start Point</item>
+        <item>Holy Monastery of the Virgin Mary Chozoviotissa - Second point</item>
+        <item>Ormos Egialis - End</item>
+    </string-array>
+    <string-array name="topic_1_highlights">
+        <item>Agia Anna beach</item>
+        <item>Kambi beach</item>
+    </string-array>
+    <string-array name="topic_2_highlights">
+        <item>Maltezi beach</item>
+        <item>St Panteleimon Beach</item>
+        <item>Agioi Saranda beach</item>
+    </string-array>
+    <string-array name="topic_3_highlights">
+        <item>Agios Pavlos Beach</item>
+        <item>Nikouria beach</item>
+        <item>Aegiali beach</item>
+        <item>Chalara Beach</item>
+        <item>Levrossos beach</item>
+        <item>Limenari beach</item>
+    </string-array>
+    <string-array name="topic_4_highlights">
+        <item>The Monastery of Hozoviotissa</item>
+        <item>Archaeological Museum</item>
+        <item>Ecclesiastical Museum</item>
+    </string-array>
+    <string-array name="topic_5_highlights">
+        <item>Ancient Minoa</item>
+        <item>Evangelistria</item>
+        <item>Evangelistria Chapel</item>
+        <item>Panagia Katapoliani</item>
+    </string-array>
+    <string-array name="topic_6_highlights">
+        <item>Ancient Aegiali Vigla</item>
+        <item>Agia Triada Chapel</item>
+        <item>Ecclesiastical Museum</item>
+    </string-array>
+    <string-array name="topic_7_highlights">
+        <item>Gramvousa beach</item>
+        <item>Kalotaritissa beach</item>
+        <item>Ammoudi beach</item>
+        <item>Mouros beach</item>
+        <item>Paradisia beach</item>
+    </string-array>
+
+
+    <string-array name="topic_0_highlight_0_geopoint">
+        <item>36.831203</item>
+        <item>25.898444</item>
+    </string-array>
+    <string-array name="topic_0_highlight_1_geopoint">
+        <item>36.834420</item>
+        <item>25.909630</item>
+    </string-array>
+    <string-array name="topic_0_highlight_2_geopoint">
+        <item>36.904992</item>
+        <item>25.978154</item>
+    </string-array>
+
+
+
+    <string-array name="topic_1_highlight_0_geopoint">
+        <item>36.825637</item>
+        <item>25.905968</item>
+    </string-array>
+    <string-array name="topic_1_highlight_1_geopoint">
+        <item>36.821545</item>
+        <item>25.905485</item>
+    </string-array>
+
+
+
+    <string-array name="topic_2_highlight_0_geopoint">
+        <item>36.835954</item>
+        <item>25.853757</item>
+    </string-array>
+    <string-array name="topic_2_highlight_1_geopoint">
+        <item>36.833541</item>
+        <item>25.855362</item>
+    </string-array>
+    <string-array name="topic_2_highlight_2_geopoint">
+        <item>36.809200</item>
+        <item>25.846085</item>
+    </string-array>
+
+
+
+    <string-array name="topic_3_highlight_0_geopoint">
+        <item>36.878709</item>
+        <item>25.930901</item>
+    </string-array>
+    <string-array name="topic_3_highlight_1_geopoint">
+        <item>36.884226</item>
+        <item>25.919975</item>
+    </string-array>
+    <string-array name="topic_3_highlight_2_geopoint">
+        <item>36.904140</item>
+        <item>25.977782</item>
+    </string-array>
+    <string-array name="topic_3_highlight_3_geopoint">
+        <item>36.908032</item>
+        <item>25.963887</item>
+    </string-array>
+    <string-array name="topic_3_highlight_4_geopoint">
+        <item>36.908145</item>
+        <item>25.971335</item>
+    </string-array>
+    <string-array name="topic_3_highlight_5_geopoint">
+        <item>37.090348</item>
+        <item>25.813743</item>
+    </string-array>
+
+
+
+    <string-array name="topic_4_highlight_0_geopoint">
+        <item>36.834424</item>
+        <item>25.909518</item>
+    </string-array>
+    <string-array name="topic_4_highlight_1_geopoint">
+        <item>36.831478</item>
+        <item>25.898864</item>
+    </string-array>
+    <string-array name="topic_4_highlight_2_geopoint">
+        <item>36.832147</item>
+        <item>25.898666</item>
+    </string-array>
+
+
+
+    <string-array name="topic_5_highlight_0_geopoint">
+        <item>36.820828</item>
+        <item>25.861531</item>
+    </string-array>
+    <string-array name="topic_5_highlight_1_geopoint">
+        <item>36.839499</item>
+        <item>25.887657</item>
+    </string-array>
+    <string-array name="topic_5_highlight_2_geopoint">
+        <item>36.822099</item>
+        <item>25.873452</item>
+    </string-array>
+    <string-array name="topic_5_highlight_3_geopoint">
+        <item>36.826470</item>
+        <item>25.862376</item>
+    </string-array>
+
+
+
+    <string-array name="topic_6_highlight_0_geopoint">
+        <item>36.918823</item>
+        <item>25.980315</item>
+    </string-array>
+    <string-array name="topic_6_highlight_1_geopoint">
+        <item>36.902708</item>
+        <item>25.994795</item>
+    </string-array>
+    <string-array name="topic_6_highlight_2_geopoint">
+        <item>36.914010</item>
+        <item>25.983574</item>
+    </string-array>
+
+
+
+    <string-array name="topic_7_highlight_0_geopoint">
+        <item>36.802144</item>
+        <item>25.746411</item>
+    </string-array>
+    <string-array name="topic_7_highlight_1_geopoint">
+        <item>36.792484</item>
+        <item>25.743150</item>
+    </string-array>
+    <string-array name="topic_7_highlight_2_geopoint">
+        <item>36.781157</item>
+        <item>25.817913</item>
+    </string-array>
+    <string-array name="topic_7_highlight_3_geopoint">
+        <item>36.786229</item>
+        <item>25.827851</item>
+    </string-array>
+    <string-array name="topic_7_highlight_4_geopoint">
+        <item>36.795950</item>
+        <item>25.766543</item>
+    </string-array>
+
+</resources>
